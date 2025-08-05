@@ -91,3 +91,52 @@ Tóm tắt lại
 Nếu bạn muốn thu thập dữ liệu tự động từ web (scrape website), hoặc cần điều khiển trình duyệt tự động để lấy dữ liệu như một con người, Crawlee là một công cụ cực kỳ mạnh, dễ dùng và có cộng đồng hỗ trợ lớn.
 
 Chỉ cần biết một chút về JavaScript/Node.js, bạn có thể bắt đầu xây dựng công cụ thu thập dữ liệu của riêng mình!
+
+
+
+1. Dùng Crawlee miễn phí trên máy cá nhân hoặc server riêng
+Crawlee là phần mềm mã nguồn mở, được phát triển và phát hành miễn phí theo giấy phép Apache 2.0.
+
+Bạn có thể cài đặt, sử dụng và phát triển mọi tính năng của Crawlee mà không phải trả bất kỳ chi phí nào cho nhà phát triển.
+
+Chi phí duy nhất bạn phải trả là phần cứng (máy tính cá nhân, VPS, cloud server tự thuê) và điện/năng lượng khi chạy code.
+
+Nếu bạn thuê VPS/Cloud server của bên thứ ba (VD: AWS, Google Cloud, Azure, Hetzner…), bạn chỉ phải trả tiền thuê máy chủ và băng thông theo bảng giá của nhà cung cấp đó.
+
+Kết luận:
+Nếu bạn chỉ chạy thử nghiệm nhỏ, làm cá nhân, hoặc tự thuê server thì không mất tiền cho Crawlee, chỉ trả tiền máy chủ như thông thường.
+
+2. Dùng Crawlee trên nền tảng đám mây Apify (có tính phí)
+Crawlee là sản phẩm mã nguồn mở do Apify phát triển. Nếu bạn muốn triển khai, quản lý, lên lịch chạy tự động, lưu trữ và chia sẻ kết quả trên nền tảng Apify Cloud, bạn sẽ có thể phải trả phí tùy gói sử dụng.
+
+Các loại chi phí trên Apify Cloud:
+Miễn phí:
+Apify cho phép đăng ký tài khoản và sử dụng gói Free với một số giới hạn (thường là số lần chạy, tài nguyên, lưu trữ…).
+
+Trả phí theo gói (Subscription):
+
+Gói trả phí sẽ cho phép bạn chạy nhiều crawler cùng lúc, lưu trữ dữ liệu lâu hơn, tăng giới hạn request, tăng tài nguyên phần cứng (RAM, CPU), v.v.
+
+Chi phí dao động tùy theo gói (tham khảo trên bảng giá Apify), ví dụ từ $49/tháng trở lên với nhiều tính năng nâng cao hơn (giá có thể thay đổi theo thời điểm).
+
+Phát sinh thêm:
+Nếu bạn sử dụng proxy do Apify cung cấp (ví dụ residential proxy để vượt anti-bot mạnh), bạn sẽ trả thêm tiền thuê proxy ngoài chi phí gói cloud.
+
+Tóm tắt các chi phí khi dùng Apify Cloud:
+Phí đăng ký gói sử dụng (cơ bản hoặc nâng cao)
+
+Phí dịch vụ bổ sung như Proxy (nếu dùng)
+
+Chi phí lưu trữ dữ liệu lớn vượt quá quota của gói Free
+
+Bảng so sánh nhanh
+Hình thức	Crawlee miễn phí (tự host)	Crawlee trên Apify Cloud
+Chi phí phần mềm	0 (mã nguồn mở)	Miễn phí/gói trả phí
+Chi phí hạ tầng	Tự thuê, chủ động lựa chọn	Theo tài nguyên của từng gói
+Tính năng quản lý	Tự cài đặt, tự bảo trì	Giao diện web, lịch trình, báo cáo...
+Proxy & tiện ích	Tự tích hợp, tự trả phí	Có sẵn, trả phí nếu dùng
+
+Kết luận
+Làm nhỏ lẻ, cá nhân, công việc nhẹ: Không mất phí, chỉ cần máy tính hoặc thuê VPS rẻ.
+
+Cần chạy lớn, chuyên nghiệp, tự động hóa, muốn mọi thứ đơn giản, có hỗ trợ: Cân nhắc trả phí cho Apify Cloud, hoặc trả thêm cho proxy, dịch vụ kèm theo.
